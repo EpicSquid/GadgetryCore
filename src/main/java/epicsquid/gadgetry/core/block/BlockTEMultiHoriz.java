@@ -18,6 +18,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public abstract class BlockTEMultiHoriz extends BlockTEHoriz implements IMultiblock {
 
@@ -67,6 +69,7 @@ public abstract class BlockTEMultiHoriz extends BlockTEHoriz implements IMultibl
   }
 
   @Override
+  @SideOnly(Side.CLIENT)
   public int getLightValue(IBlockState state, IBlockAccess world, BlockPos pos) {
     Set<BlockPos> positions = getSlavePositions(pos, state.getValue(facing)).keySet();
     int[] lmap = new int[positions.size()];
