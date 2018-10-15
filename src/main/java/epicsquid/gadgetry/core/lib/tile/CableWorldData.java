@@ -30,7 +30,7 @@ public class CableWorldData extends WorldSavedData {
     NBTTagList takenIDs = new NBTTagList();
     for (Entry<Integer, CableNetwork> e : networks.entrySet()) {
       takenIDs.appendTag(new NBTTagInt(e.getKey()));
-      tag.setTag("network" + e.getKey(), e.getValue().writeToNBT());
+      tag.setTag("cable_network" + e.getKey(), e.getValue().writeToNBT());
     }
     tag.setTag("takenIDs", takenIDs);
     return tag;
@@ -41,7 +41,7 @@ public class CableWorldData extends WorldSavedData {
     NBTTagList takenIDs = tag.getTagList("takenIDs", Constants.NBT.TAG_INT);
     for (int i = 0; i < takenIDs.tagCount(); i++) {
       int id = takenIDs.getIntAt(i);
-      NBTTagCompound t = tag.getCompoundTag("network" + id);
+      NBTTagCompound t = tag.getCompoundTag("cable_network" + id);
       CableNetwork n = null;
       if (t.hasKey("type")) {
         String type = t.getString("type");
