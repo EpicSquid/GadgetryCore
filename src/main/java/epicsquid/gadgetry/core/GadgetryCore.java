@@ -24,7 +24,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 @Mod(modid = GadgetryCore.MODID, version = GadgetryCore.VERSION, name = GadgetryCore.NAME)
 public class GadgetryCore {
   public static final String MODID = "gadgetrycore";
-  public static final String VERSION = "0.2.0";
+  public static final String VERSION = "1.0.0";
   public static final String NAME = "Gadgetry: Core";
 
   public static ModContainer CONTAINER;
