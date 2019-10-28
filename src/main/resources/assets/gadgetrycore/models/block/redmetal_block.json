@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "gadgetrycore:blocks/redmetal_block",
-        "particle": "gadgetrycore:blocks/redmetal_block"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "gadgetrycore:blocks/steel_block",
-        "particle": "gadgetrycore:blocks/steel_block"
-    }
-}
