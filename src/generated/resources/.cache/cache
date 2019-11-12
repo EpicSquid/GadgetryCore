@@ -1,0 +1,6 @@
+38b73a49a43d7990fccad392de0ccdc6f29ad20d assets\gadgetrycore\blockstates\redmetal_block.json
+b285abc41f7d937bcecec62e6b397c581887d260 assets\gadgetrycore\models\block\redmetal_block.json
+aaabc56a63c86e298527627ad41f12ee2c4bd6e7 assets\gadgetrycore\models\item\redmetal_block.json
+c38e177024ad3eb9004d4dc0c7b4b46b48524de9 assets\gadgetrycore\models\item\redmetal_ingot.json
+8d79db05247e647ae9026770e9b343264d443ad4 assets\gadgetrycore\models\item\redmetal_nugget.json
+1eb9f27ff8fd7bccf2b0df349919c9f2db526b84 data\gadgetrycore\loot_tables\blocks\redmetal_block.json

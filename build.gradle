@@ -45,7 +45,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                mysticalworld {
+                gadgetrycore {
                     source sourceSets.main
                 }
             }
@@ -61,7 +61,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                mysticalworld {
+                gadgetrycore {
                     source sourceSets.main
                 }
             }
@@ -79,7 +79,7 @@ minecraft {
             args '--mod', 'gadgetrycore', '--all', '--output', file('src/generated/resources/')
 
             mods {
-                mysticalworld {
+                gadgetrycore {
                     source sourceSets.main
                 }
             }
@@ -115,6 +115,10 @@ dependencies {
     }
 
 //    deobfCompile "info.tehnut.harvest:Harvest:1.12-1.2.7-20"
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
