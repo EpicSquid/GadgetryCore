@@ -46,3 +46,4 @@ user.properties
 eiostore.jks
 
 build\.sh
+/src/generated/resources/.cache/
