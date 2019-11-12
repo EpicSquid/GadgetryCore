@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gadgetrycore:redmetal_block"
+    }
+  ],
+  "result": {
+    "item": "gadgetrycore:redmetal_ingot",
+    "count": 9
+  }
+}

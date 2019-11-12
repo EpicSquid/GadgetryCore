@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gadgetrycore:steel_block"
+    }
+  ],
+  "result": {
+    "item": "gadgetrycore:steel_ingot",
+    "count": 9
+  }
+}

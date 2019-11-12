@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "gadgetrycore:redmetal_ingot_from_redmetal_block"
+    ]
+  },
+  "criteria": {
+    "has_redmetal_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gadgetrycore:redmetal_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gadgetrycore:redmetal_ingot_from_redmetal_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_redmetal_block",
+      "has_the_recipe"
+    ]
+  ]
+}

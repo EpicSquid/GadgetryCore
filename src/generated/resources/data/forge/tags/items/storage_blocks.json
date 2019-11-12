@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:storage_blocks/redmetal",
+    "#forge:storage_blocks/steel"
+  ]
+}
