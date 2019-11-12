@@ -1,6 +1,12 @@
 {
+  "block.gadgetrycore.iron_plate_block": "Iron Plate Block",
   "block.gadgetrycore.redmetal_block": "Redmetal Block",
+  "block.gadgetrycore.redmetal_plate_block": "Redmetal Plate Block",
+  "block.gadgetrycore.steel_block": "Steel Block",
+  "block.gadgetrycore.steel_plate_block": "Steel Plate Block",
   "item.gadgetrycore.redmetal_ingot": "Redmetal Ingot",
   "item.gadgetrycore.redmetal_nugget": "Redmetal Nugget",
+  "item.gadgetrycore.steel_ingot": "Steel Ingot",
+  "item.gadgetrycore.steel_nugget": "Steel Nugget",
   "itemGroup.gadgetrycore": "Gadgetry Core"
 }

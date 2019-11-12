@@ -16,8 +16,15 @@ public class GCItemModelProvider extends DeferredItemModelProvider {
 	@Override
 	protected void registerModels() {
 		blockItem(ModBlocks.REDMETAL_BLOCK);
+		blockItem(ModBlocks.REDMETAL_PLATE_BLOCK);
+		blockItem(ModBlocks.STEEL_BLOCK);
+		blockItem(ModBlocks.STEEL_PLATE_BLOCK);
+		blockItem(ModBlocks.IRON_PLATE_BLOCK);
 
 		generated(ModItems.REDMETAL_INGOT);
 		generated(ModItems.REDMETAL_NUGGET);
+
+		generated(ModItems.STEEL_INGOT);
+		generated(ModItems.STEEL_NUGGET);
 	}
 }

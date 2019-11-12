@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gadgetrycore:block/iron_plate_block"
+    }
+  }
+}

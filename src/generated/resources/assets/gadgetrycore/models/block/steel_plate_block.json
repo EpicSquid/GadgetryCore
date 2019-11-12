@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gadgetrycore:block/steel_plate_block"
+  }
+}

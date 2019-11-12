@@ -9,6 +9,9 @@ public class ModItems {
 	public static RegistryObject<Item> REDMETAL_INGOT = GadgetryCore.REGISTRY.registerItem(ModMaterials.REDMETAL.ingotName(), GadgetryCore.REGISTRY.item(Item::new, ModRegistries.SIG));
 	public static RegistryObject<Item> REDMETAL_NUGGET = GadgetryCore.REGISTRY.registerItem(ModMaterials.REDMETAL.nuggetName(), GadgetryCore.REGISTRY.item(Item::new, ModRegistries.SIG));
 
+	public static RegistryObject<Item> STEEL_INGOT = GadgetryCore.REGISTRY.registerItem(ModMaterials.STEEL.ingotName(), GadgetryCore.REGISTRY.item(Item::new, ModRegistries.SIG));
+	public static RegistryObject<Item> STEEL_NUGGET = GadgetryCore.REGISTRY.registerItem(ModMaterials.STEEL.nuggetName(), GadgetryCore.REGISTRY.item(Item::new, ModRegistries.SIG));
+
 	public static void load() {
 
 	}

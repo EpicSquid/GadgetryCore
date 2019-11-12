@@ -15,5 +15,9 @@ public class GCBlockstateProvider extends DeferredBlockStateProvider {
   @Override
   protected void registerStatesAndModels() {
     simpleBlock(ModBlocks.REDMETAL_BLOCK);
+    simpleBlock(ModBlocks.REDMETAL_PLATE_BLOCK);
+    simpleBlock(ModBlocks.STEEL_BLOCK);
+    simpleBlock(ModBlocks.STEEL_PLATE_BLOCK);
+    simpleBlock(ModBlocks.IRON_PLATE_BLOCK);
   }
 }

@@ -45,6 +45,10 @@ public class GCLootTableProvider extends LootTableProvider {
 		@Override
 		protected void addTables() {
 			self(ModBlocks.REDMETAL_BLOCK);
+			self(ModBlocks.REDMETAL_PLATE_BLOCK);
+			self(ModBlocks.STEEL_BLOCK);
+			self(ModBlocks.STEEL_PLATE_BLOCK);
+			self(ModBlocks.IRON_PLATE_BLOCK);
 		}
 
 		@Override

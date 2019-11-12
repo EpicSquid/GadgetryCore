@@ -14,9 +14,16 @@ public class GCLangProvider extends DeferredLanguageProvider {
 	@Override
 	protected void addTranslations() {
 		addBlock(ModBlocks.REDMETAL_BLOCK);
+		addBlock(ModBlocks.REDMETAL_PLATE_BLOCK);
+		addBlock(ModBlocks.STEEL_BLOCK);
+		addBlock(ModBlocks.STEEL_PLATE_BLOCK);
+		addBlock(ModBlocks.IRON_PLATE_BLOCK);
 
 		addItem(ModItems.REDMETAL_INGOT);
 		addItem(ModItems.REDMETAL_NUGGET);
+
+		addItem(ModItems.STEEL_INGOT);
+		addItem(ModItems.STEEL_NUGGET);
 
 		addItemGroup(GadgetryCore.ITEM_GROUP, "Gadgetry Core");
 	}
