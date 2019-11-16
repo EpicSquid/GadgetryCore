@@ -33,14 +33,11 @@ public class GadgetryCore {
 
 		IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		modBus.addListener(setup::init);
-
 		ModItems.load();
 		ModBlocks.load();
 
 		modBus.addListener(setup::init);
 		modBus.addListener(setup::gatherData);
-
 
 		REGISTRY.registerEventBus(modBus);
   }
