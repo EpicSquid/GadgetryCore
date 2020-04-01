@@ -35,9 +35,9 @@ public class AlloyRecipe extends RecipeBase {
     if (Loader.isModLoaded("jei")) {
       MinecraftForge.EVENT_BUS.register(new AlloyRecipeJEI());
     }
-    recipes.add(new AlloyRecipe(new ItemStack(RegistryManager.redmetal_ingot, 1), new ItemStack(Items.GOLD_INGOT, 1), new ItemStack(Items.REDSTONE, 1),
+    recipes.add(new AlloyRecipe(new ItemStack(RegistryManager.redmetal_ingot, 1), "ingotGold", new ItemStack(Items.REDSTONE, 1),
         ItemStack.EMPTY));
-    recipes.add(new AlloyRecipe(new ItemStack(RegistryManager.steel_ingot, 1), new ItemStack(Items.IRON_INGOT, 1), new ItemStack(Items.COAL, 1),
+    recipes.add(new AlloyRecipe(new ItemStack(RegistryManager.steel_ingot, 1), "ingotIron", new ItemStack(Items.COAL, 1),
         new ItemStack(Items.GUNPOWDER, 1)));
     recipes.add(new AlloyRecipe(new ItemStack(RegistryManager.silicon, 1), new ItemStack(Blocks.GLASS, 1), ItemStack.EMPTY, ItemStack.EMPTY));
     for (AlloyRecipe r : recipes) {

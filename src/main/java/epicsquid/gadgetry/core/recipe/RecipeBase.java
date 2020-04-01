@@ -68,6 +68,8 @@ public class RecipeBase {
         return false;
       }
     } else if (recipeInput instanceof OreStack) {
+      if (stack.isEmpty())
+        return ((OreStack) recipeInput).oreId.isEmpty();
       int id = OreDictionary.getOreID(((OreStack) recipeInput).oreId);
       int[] ids = OreDictionary.getOreIDs(stack);
       boolean hasMatch = false;
@@ -80,6 +82,8 @@ public class RecipeBase {
         return hasMatch;
       }
     } else if (recipeInput instanceof String) {
+      if (stack.isEmpty())
+        return ((String) recipeInput).isEmpty();
       int id = OreDictionary.getOreID((String) recipeInput);
       int[] ids = OreDictionary.getOreIDs(stack);
       boolean hasMatch = false;
