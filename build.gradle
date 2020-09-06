@@ -6,7 +6,6 @@ buildscript {
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:3.0.185'
-        classpath 'mezz.jei:jei_1.16.1:1.16.1.301'
     }
 }
         
@@ -49,7 +48,7 @@ minecraft {
 dependencies {
     // Specify the version of Minecraft to use
 	minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
-
+    fg.deobf("mezz.jei:jei-1.16.1:${jei_version}")
 }
 
 // Get properties into the manifest for reading by the runtime..
