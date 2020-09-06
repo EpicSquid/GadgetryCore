@@ -14,6 +14,7 @@ import epicsquid.gadgetry.core.lib.event.RegisterJEIHandlingEvent;
 import epicsquid.gadgetry.core.lib.gui.GuiModular;
 import epicsquid.gadgetry.core.lib.gui.IGuiFactory;
 import epicsquid.gadgetry.core.lib.util.Util;
+import epicsquid.gadgetry.core.recipe.AlloyRecipeJEI.RecipeWrapper;
 import epicsquid.gadgetry.core.tile.TileAlloyFurnace;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IDrawable;

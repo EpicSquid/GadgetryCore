@@ -32,7 +32,7 @@ public class MessageTEUpdate implements IMessage {
 
   @Override
   public void toBytes(ByteBuf buf) {
-    private String erroroutput = "";
+    String eout = "";
     try
     {
       ByteBufUtils.writeTag(buf, tag);
@@ -41,11 +41,11 @@ public class MessageTEUpdate implements IMessage {
     {
       //this only occurs when destroying blocks and there is a server sync error. So this is very rare. 
       //Needs to output the error line into the log file somehow. Will need proper error handling at some point.
-      erroroutput = err.getMessage();
+      eout = err.getMessage();
     }
     finally
     {
-      System.out.println("Gadgetry Network Error".erroroutput);
+      System.out.println(eout);
     }
   }
 
