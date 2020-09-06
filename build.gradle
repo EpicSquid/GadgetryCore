@@ -6,7 +6,7 @@ buildscript {
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:3.0.185'
-        classpath 'mezz.jei:jei_1.16.1:${jei_version}'
+        classpath 'mezz.jei:jei_1.16.1:1.16.1.301'
     }
 }
         
