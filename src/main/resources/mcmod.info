@@ -3,7 +3,7 @@
   "modid": "gadgetrycore",
   "name": "Gadgetry: Core",
   "description": "Core module for Gadgetry.",
-  "version": "0.3.0",
+  "version": "0.2.1",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
