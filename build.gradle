@@ -8,7 +8,8 @@ buildscript {
     }
 }
 
-apply plugin: 'net.minecraftforge.gradle.forge'
+//apply plugin: 'net.minecraftforge.gradle.forge'
+apply from: 'project.gradle'
 
 version = "${minecraft_version}-${mod_version}"
 group = "epicsquid.gadgetry.core"
