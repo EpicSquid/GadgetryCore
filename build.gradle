@@ -52,7 +52,6 @@ dependencies {
 }
 
 // Get properties into the manifest for reading by the runtime..
-/*
 jar {
     manifest {
         attributes([
@@ -66,7 +65,7 @@ jar {
         ])
     }
 }
-*/
+
 
 // Example configuration to allow publishing using the maven-publish task
 // This is the preferred method to reobfuscate your jar file
