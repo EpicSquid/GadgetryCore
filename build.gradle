@@ -54,15 +54,15 @@ dependencies {
 // Get properties into the manifest for reading by the runtime..
 jar {
     manifest {
-        attributes([
-            "Specification-Title": "gadgetrycore",
+        attributes(
+            "Specification-Title": "Gadgetry Core",
             "Specification-Vendor": "epicsquid",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": epicsquid.gadgetry,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"epicsquid",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-        ])
+        )
     }
 }
 
